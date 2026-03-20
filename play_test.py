@@ -17,5 +17,5 @@ while len(engine.current_data) > 1:
 
 result = engine.get_result()
 if result:
-    print(f"\n✨ ¡Tu personaje es: {result['name']}! ✨")
+    print(f"\n¡Tu personaje es: {result['name']}!")
     print(f"Imagen: {result['image_url']}")

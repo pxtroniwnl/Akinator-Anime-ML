@@ -1,0 +1,1411 @@
+|--- wears_hat_or_mask <= 0.50
+|   |--- is_captain_or_leader <= 0.50
+|   |   |--- is_student <= 0.50
+|   |   |   |--- has_superpowers <= 0.50
+|   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |--- is_male <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_ninja <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ai Haibara
+|   |   |   |   |   |   |   |   |   |--- is_ninja >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Yamato
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Saber
+|   |   |   |   |   |   |   |--- is_male >  0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Hyakunosuke Ogata
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Eru Chitanda
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Dabi
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Sherlock Holmes
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Leone
+|   |   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Sagiri Yamada Asaemon
+|   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |--- class: Eto
+|   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Aiko Tanaka
+|   |   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Tomura Shigaraki
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Hae-In Cha
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Sanemi Shinazugawa
+|   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |--- class: Kraft Lawrence
+|   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |--- class: Chino Kafuu
+|   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Eureka
+|   |   |   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shougo Makishima
+|   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Anya Forger
+|   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |--- class: Gokuu Black
+|   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cyborg_or_robot <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Olivier Mira Armstrong
+|   |   |   |   |   |   |   |   |--- is_cyborg_or_robot >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Future Trunks
+|   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |--- class: Alice Zuberg
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Guren Ichinose
+|   |   |   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Giyuu Tomioka
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Dio Brando
+|   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |--- class: Dante
+|   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Kishou Arima
+|   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |--- class: Anko Uguisu
+|   |   |   |--- has_superpowers >  0.50
+|   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Katsuki Bakugou
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Illumi Zoldyck
+|   |   |   |   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Rosinante Donquixote
+|   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Ikaros
+|   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Delta
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Emma
+|   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Bell Cranel
+|   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Jin
+|   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |--- class: Alluka Zoldyck
+|   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |--- is_male <= 0.50
+|   |   |   |   |   |   |   |--- class: Maki Oze
+|   |   |   |   |   |   |--- is_male >  0.50
+|   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Akari Akaza
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Nausicaä
+|   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |--- class: Power
+|   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Alibaba Saluja
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Denji
+|   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Carrot
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- class: Soushi Miketsukami
+|   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |--- class: Atsushi Nakajima
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Akaza
+|   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |--- class: Aqua
+|   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |--- class: Zeref
+|   |   |--- is_student >  0.50
+|   |   |   |--- has_superpowers <= 0.50
+|   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |--- is_male <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Miko Iino
+|   |   |   |   |   |   |   |   |--- is_male >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Kyon
+|   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Ray
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Norman
+|   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Chizuru Hishiro
+|   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Aru Akise
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gorou Akechi
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Garou
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Amelie Azazel
+|   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Ouran Nakagawa
+|   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |--- class: Akihito Kanbara
+|   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |--- class: Ayame Kajou
+|   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |--- class: Asuka Tanaka
+|   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |--- class:  Akashi
+|   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |--- class: Rider
+|   |   |   |--- has_superpowers >  0.50
+|   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Ryuuko Matoi
+|   |   |   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shouyou Hinata
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Hitoshi Shinsou
+|   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |--- class: Denki Kaminari
+|   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Ai Hayasaka
+|   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |--- class: Satori Tendou
+|   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |--- has_red_hair <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Shouta Aizawa
+|   |   |   |   |   |   |   |--- has_red_hair >  0.50
+|   |   |   |   |   |   |   |   |--- class: Shouto Todoroki
+|   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |--- class: Kenma Kozume
+|   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- is_isekai <= 0.50
+|   |   |   |   |   |   |   |--- class: Louise Françoise Le Blanc de La Vallière
+|   |   |   |   |   |   |--- is_isekai >  0.50
+|   |   |   |   |   |   |   |--- class: Naofumi Iwatani
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |--- class: Clara Valac
+|   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |--- class: Ryou Asuka
+|   |--- is_captain_or_leader >  0.50
+|   |   |--- has_superpowers <= 0.50
+|   |   |   |--- is_student <= 0.50
+|   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Dandy
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Fern
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shigeru Akagi
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Nine
+|   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |--- class: Char Aznable
+|   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Dokja Kim
+|   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |--- class: Joe Yabuki
+|   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |--- class: Griffith
+|   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Mikazuki Augus
+|   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |--- class: Black★Rock Shooter
+|   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |--- is_cyborg_or_robot <= 0.50
+|   |   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class:  Satou
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Yor Forger
+|   |   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Erwin Smith
+|   |   |   |   |   |   |   |--- is_cyborg_or_robot >  0.50
+|   |   |   |   |   |   |   |   |--- class: Genos
+|   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Kamina
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- class: Toyohisa Shimazu
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Sadao Maou
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- class: King
+|   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Krul Tepes
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- class: Alexander Anderson
+|   |   |   |--- is_student >  0.50
+|   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cyborg_or_robot <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Miyako Shikimori
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Rintarou Tsumugi
+|   |   |   |   |   |   |   |   |   |--- is_cyborg_or_robot >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Itaru Hashida
+|   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_ninja <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Sunako Nakahara
+|   |   |   |   |   |   |   |   |   |--- is_ninja >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Rock Lee
+|   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Rika Furude
+|   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Yasushi Takagi
+|   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |--- class: Shinichi Akiyama
+|   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |--- class: Takashi Mitsuya
+|   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |--- class: Ryuuji Takasu
+|   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Chifuyu Matsuno
+|   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |--- class: Makoto Kino
+|   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |--- class: Kokichi Ouma
+|   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |--- class: Hatsuharu Souma
+|   |   |--- has_superpowers >  0.50
+|   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |--- is_student <= 0.50
+|   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cyborg_or_robot <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_cyborg_or_robot >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Motoko Kusanagi
+|   |   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ranpo Edogawa
+|   |   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Hancock Boa
+|   |   |   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Jinbe
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Askeladd
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Mikoto Suou
+|   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Cloud Strife
+|   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Nobuchika Ginoza
+|   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Laurent Thierry
+|   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Killua Zoldyck
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Vegeta
+|   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Shinra Kusakabe
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Laxus Dreyar
+|   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |--- class: Minako Aino
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- class: Elma
+|   |   |   |   |--- is_student >  0.50
+|   |   |   |   |   |--- is_isekai <= 0.50
+|   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ippo Makunouchi
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Glenn Radars
+|   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Renji Abarai
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- class: Yuu Narukami
+|   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |--- class: Inaho Kaizuka
+|   |   |   |   |   |--- is_isekai >  0.50
+|   |   |   |   |   |   |--- class: Issei Hyoudou
+|   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- is_isekai <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Cheng Hua
+|   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Asta
+|   |   |   |   |   |   |   |   |--- is_isekai >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Anos Voldigoad
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- class: Wuxian Wei
+|   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |--- class: Laios Touden
+|   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |--- class: Tanjirou Kamado
+|   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |--- is_student <= 0.50
+|   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |--- is_isekai <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Sukuna Ryoumen
+|   |   |   |   |   |   |   |   |--- is_isekai >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Rimuru Tempest
+|   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |--- class: Senshi
+|   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |--- class: Piccolo
+|   |   |   |   |   |--- is_student >  0.50
+|   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |--- class: Iruma Suzuki
+|   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |--- class: Touka Kirishima
+|--- wears_hat_or_mask >  0.50
+|   |--- is_captain_or_leader <= 0.50
+|   |   |--- has_superpowers <= 0.50
+|   |   |   |--- is_student <= 0.50
+|   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Jean Pierre Polnareff
+|   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Loid Forger
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Lubbock
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Diego Brando
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Qiang Lei
+|   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- has_red_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Akio Furukawa
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Kino
+|   |   |   |   |   |   |   |   |   |--- has_red_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Howl
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shino Asada
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gabimaru
+|   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Noi
+|   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Yuujirou Hanma
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kaonashi
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Shinobu Kochou
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Sephiroth
+|   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Kirei Kotomine
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Edward Wong Hau Pepelu Tivrusky IV
+|   |   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ange le Carré
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_ninja <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ren Tsuruga
+|   |   |   |   |   |   |   |   |   |--- is_ninja >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gaara
+|   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Riza Hawkeye
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Train Heartnet
+|   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Daisuke Kanbe
+|   |   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Akira Takizawa
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shisui Uchiha
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Nezumi
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- class: Akane Tsunemori
+|   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cyborg_or_robot <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Bondrewd
+|   |   |   |   |   |   |   |   |--- is_cyborg_or_robot >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: YoRHa 2-gou B-gata
+|   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |--- class: Albedo
+|   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |--- class: Mumen Rider
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ashitaka
+|   |   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Erio Touwa
+|   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Ein
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- class: Kusuriuri
+|   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Susumu Nakoshi
+|   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |--- class: Kyoujurou Rengoku
+|   |   |   |--- is_student >  0.50
+|   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Noé Archiviste
+|   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Hanabi Yasuraoka
+|   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Yuki Nagato
+|   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Chizuru Ichinose
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Cadis Etrama Di Raizel
+|   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |--- class: Black☆Star
+|   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |--- class: Momiji Souma
+|   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ikki Kurogane
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Sakuta Azusagawa
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Miyuki Shirogane
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- class: Narancia Ghirga
+|   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Tsumugi Kotobuki
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- class: Mami Nanami
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- class: Futaba Yoshioka
+|   |   |--- has_superpowers >  0.50
+|   |   |   |--- is_student <= 0.50
+|   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blue_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Kento Nanami
+|   |   |   |   |   |   |   |   |   |   |--- has_blue_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Satoru Fujinuma
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Guang Lu
+|   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_isekai <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Baki Hanma
+|   |   |   |   |   |   |   |   |   |   |--- is_isekai >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Izayoi Sakamaki
+|   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Takashi Natsume
+|   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Marcille Donato
+|   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Brandon Heat
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mirajane Strauss
+|   |   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shinya Kougami
+|   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Freeza
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Buggy
+|   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Feitan Portor
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Akame
+|   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- has_red_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_isekai <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gray Fullbuster
+|   |   |   |   |   |   |   |   |   |--- is_isekai >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Lucy Heartfilia
+|   |   |   |   |   |   |   |   |--- has_red_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Roxy Migurdia
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Allen Walker
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Musashi Miyamoto
+|   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kojirou Sasaki
+|   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Beatrice
+|   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Kei Takishima
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Isuzu Sento
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Batou
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Mine
+|   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Belldandy
+|   |   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shin
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shiro
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Envy
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Fremy Speeddraw
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Sora
+|   |   |   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Momonga
+|   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Trunks
+|   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Konjiki no Yami
+|   |   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Zoro Roronoa
+|   |   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |   |--- class: Felix Argyle
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: D
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Megumin
+|   |   |   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Chopper Tony Tony
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Sesshoumaru
+|   |   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Inuyasha
+|   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kurama
+|   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Ken Kaneki
+|   |   |   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Lala Satalin Deviluke
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Beatrice
+|   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Ulquiorra Cifer
+|   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Seras Victoria
+|   |   |   |--- is_student >  0.50
+|   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Hayato Gokudera
+|   |   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Tomie
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Miyuki Shiba
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Satsuki Kiryuuin
+|   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Mikoto Misaka
+|   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Hinata Hyuuga
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Mami Tomoe
+|   |   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Suguru Getou
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kusuo Saiki
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- class: Hei
+|   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Rio Futaba
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Noriaki Kakyouin
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kaito Kuroba
+|   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kenshirou
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Homura Akemi
+|   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |--- class: Kaname Kuran
+|   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Hachiman Hikigaya
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Eikichi Onizuka
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Azusa Nakano
+|   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Yotsuba Nakano
+|   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Sumireko Sanshokuin
+|   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Sasuke Uchiha
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- class: Arthur Boyle
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |--- class: Uryuu Ishida
+|   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |--- class: Kazuma Kuwabara
+|   |--- is_captain_or_leader >  0.50
+|   |   |--- has_superpowers <= 0.50
+|   |   |   |--- is_student <= 0.50
+|   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Re-l Mayer
+|   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Nicholas D. Wolfwood
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Kazuto Kirigaya
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Kenshin Himura
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Zen Wistalia
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- has_scar <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_ninja <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Shuuichi Akai
+|   |   |   |   |   |   |   |   |   |--- is_ninja >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Obito Uchiha
+|   |   |   |   |   |   |   |   |--- has_scar >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Tsukuyo
+|   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Koko Hekmatyar
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Haise Sasaki
+|   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Rokurou Okajima
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ais Wallenstein
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Muichirou Tokitou
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- class: Qi Wang
+|   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blue_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Celty Sturluson
+|   |   |   |   |   |   |   |   |   |   |--- has_blue_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Ika Musume
+|   |   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Taizou Hasegawa
+|   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Jibril
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Zero Two
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Lian Xie
+|   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Aurora Suya Rhys Kaymin
+|   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |--- class: Juuzou Suzuya
+|   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Asa Mitaka
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Asuna Yuuki
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mukuro Rokudou
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Ikuto Tsukiyomi
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Esdeath
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Zenitsu Agatsuma
+|   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Bunta Fujiwara
+|   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Jet Black
+|   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Armin Arlert
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Yukino Yukinoshita
+|   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |--- has_scar <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Victorique de Blois
+|   |   |   |   |   |   |   |   |--- has_scar >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Balalaika
+|   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Alice
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Akatsuki
+|   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Canti
+|   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |--- class: Spike Spiegel
+|   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Hiei
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Toushirou Hijikata
+|   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |--- class: Uta
+|   |   |   |--- is_student >  0.50
+|   |   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Alisa Mikhailovna Kujou
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Mahiru Shiina
+|   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Mion Sonozaki
+|   |   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Kagami Hiiragi
+|   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Yukino Miyazawa
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Kuroyukihime
+|   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Takehito Morokuzu
+|   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Juliet Persia
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Shinsuke Takasugi
+|   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |--- class: Takeshi Yamamoto
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Nadeko Sengoku
+|   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Nazuna Nanakusa
+|   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Ruka Sarashina
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- class: Kirino Kousaka
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Shuu Tsukiyama
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- class: Haruhi Suzumiya
+|   |   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Alice Nakiri
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Ritsu Tainaka
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Aoi Miyamori
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Usagi Tsukino
+|   |   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Koyomi Araragi
+|   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |--- class: Mio Akiyama
+|   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Suzaku Kururugi
+|   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |--- class: Himiko Toga
+|   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |--- has_blue_hair <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Gin Ichimaru
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Chitoge Kirisaki
+|   |   |   |   |   |   |   |--- has_blue_hair >  0.50
+|   |   |   |   |   |   |   |   |--- class: Konata Izumi
+|   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |--- has_scar <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Kaguya Shinomiya
+|   |   |   |   |   |   |   |--- has_scar >  0.50
+|   |   |   |   |   |   |   |   |--- class: Death the Kid
+|   |   |--- has_superpowers >  0.50
+|   |   |   |--- elemental_powers <= 0.50
+|   |   |   |   |--- is_student <= 0.50
+|   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Eucliwood Hellscythe
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Makoto Yuuki
+|   |   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Sougo Okita
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Yuu Kanda
+|   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Shizuo Heiwajima
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Morgiana
+|   |   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Speed-o'-Sound Sonic
+|   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kiritsugu Emiya
+|   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Shinji Hirako
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Chrollo Lucilfer
+|   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Tsunade
+|   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gohan Son
+|   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- has_red_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Doflamingo Donquixote
+|   |   |   |   |   |   |   |   |   |--- has_red_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Shanks
+|   |   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Usopp
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Robin Nico
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Luffy Monkey D.
+|   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_orphan <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Sanji
+|   |   |   |   |   |   |   |   |   |--- is_orphan >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Yuuichirou Hyakuya
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_ninja <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Shinoa Hiiragi
+|   |   |   |   |   |   |   |   |   |   |--- is_ninja >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Minato Namikaze
+|   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Isaac Foster
+|   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Kenzou Tenma
+|   |   |   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Naruto Uzumaki
+|   |   |   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: United Kingdom
+|   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Arcueid Brunestud
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gokuu Son
+|   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_cyborg_or_robot <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Lina Inverse
+|   |   |   |   |   |   |   |   |   |--- is_cyborg_or_robot >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Kiyomasa Senji
+|   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Mihawk Dracule
+|   |   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Tobi
+|   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Rin Okumura
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Mayuri Kurotsuchi
+|   |   |   |   |--- is_student >  0.50
+|   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Karma Akabane
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Mephisto Pheles
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Excalibur
+|   |   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ren Amamiya
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |--- wears_glasses <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Aslan Jade Callenreese
+|   |   |   |   |   |   |   |   |   |--- wears_glasses >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Keima Katsuragi
+|   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Hidenori Tabata
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- is_isekai <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Rukia Kuchiki
+|   |   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Shunsui Jirou Sakuranosuke Kyouraku
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Lum
+|   |   |   |   |   |   |   |--- is_isekai >  0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Xenovia Quarta
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Koneko Toujou
+|   |   |   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Akeno Himejima
+|   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |--- has_red_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Tobio Kageyama
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Ichigo Kurosaki
+|   |   |   |   |   |   |   |   |   |--- has_red_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Hanamichi Sakuragi
+|   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Eiji Niizuma
+|   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |--- class: Orihime Inoue
+|   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |--- class: Rias Gremory
+|   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Neji Hyuuga
+|   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Sakura Haruno
+|   |   |   |--- elemental_powers >  0.50
+|   |   |   |   |--- is_student <= 0.50
+|   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |   |--- has_red_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- has_red_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_scar <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Erza Scarlet
+|   |   |   |   |   |   |   |   |   |   |--- has_scar >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Natsu Dragneel
+|   |   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Seto Kaiba
+|   |   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Itsuki Minami
+|   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |--- is_cyborg_or_robot <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_ninja <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Broly
+|   |   |   |   |   |   |   |   |   |   |--- is_ninja >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Madara Uchiha
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gintoki Sakata
+|   |   |   |   |   |   |   |   |--- is_cyborg_or_robot >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Grimmjow Jaegerjaquez
+|   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Funny Valentine
+|   |   |   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Jousuke Higashikata
+|   |   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Friend
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Aladdin
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |--- is_pirate <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Ryner Lute
+|   |   |   |   |   |   |   |   |   |--- is_pirate >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Brook
+|   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kakashi Hatake
+|   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Gilgamesh
+|   |   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Tsuyu Asui
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Edward Elric
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Yin
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Frieren
+|   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Setsuna F. Seiei
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Revy
+|   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kagura
+|   |   |   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |   |   |--- class: Daisuke Jigen
+|   |   |   |   |--- is_student >  0.50
+|   |   |   |   |   |--- is_villain_or_antagonist <= 0.50
+|   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |--- uses_guns <= 0.50
+|   |   |   |   |   |   |   |   |   |--- can_fly <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- can_fly >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Yotsuba Koiwai
+|   |   |   |   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Byakuya Kuchiki
+|   |   |   |   |   |   |   |   |--- uses_guns >  0.50
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Saito Hiraga
+|   |   |   |   |   |   |   |   |   |   |--- has_blonde_hair >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Fate Testarossa
+|   |   |   |   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Youichi Hiruma
+|   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Takumi Fujiwara
+|   |   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Taichi Mashima
+|   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Conan Edogawa
+|   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |--- is_intelligent <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kenichi Shirahama
+|   |   |   |   |   |   |   |   |--- is_intelligent >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Light Yagami
+|   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |--- has_black_hair <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Tooka Yatogami
+|   |   |   |   |   |   |   |   |--- has_black_hair >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Shana
+|   |   |   |   |   |--- is_villain_or_antagonist >  0.50
+|   |   |   |   |   |   |--- is_alien_or_creature <= 0.50
+|   |   |   |   |   |   |   |--- is_cold_or_stoic <= 0.50
+|   |   |   |   |   |   |   |   |--- is_human <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Accelerator
+|   |   |   |   |   |   |   |   |--- is_human >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Origami Tobiichi
+|   |   |   |   |   |   |   |--- is_cold_or_stoic >  0.50
+|   |   |   |   |   |   |   |   |--- class: Lelouch Lamperouge
+|   |   |   |   |   |   |--- is_alien_or_creature >  0.50
+|   |   |   |   |   |   |   |--- from_popular_shonen <= 0.50
+|   |   |   |   |   |   |   |   |--- is_detective_or_police <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Kurumi Tokisaki
+|   |   |   |   |   |   |   |   |--- is_detective_or_police >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Joutarou Kuujou
+|   |   |   |   |   |   |   |--- from_popular_shonen >  0.50
+|   |   |   |   |   |   |   |   |--- uses_swords <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: Orochimaru
+|   |   |   |   |   |   |   |   |--- uses_swords >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: Itachi Uchiha

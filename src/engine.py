@@ -46,7 +46,15 @@ class AkinatorEngine:
         self.current_data = self.current_data[self.current_data[question] == answer]
 
     def get_result(self):
-        """Devuelve el personaje si solo queda uno."""
-        if len(self.current_data) == 1:
-            return self.current_data.iloc[0].to_dict()
-        return None
+        """Devuelve el ganador usando la lógica de probabilidad (Favoritos)."""
+        if self.current_data.empty:
+            return None
+        
+        # Si el árbol no pudo distinguir entre los que quedan:
+        if len(self.current_data) > 1:
+            # Ordenamos por favoritos de mayor a menor y tomamos el primero
+            # Esto es lo que llamamos un 'Bayesian Prior' en estadística
+            winner = self.current_data.sort_values(by='favorites', ascending=False).iloc[0]
+            return winner.to_dict()
+        
+        return self.current_data.iloc[0].to_dict()

@@ -691,7 +691,7 @@ export default function AnimeAkinator() {
               characters={characters}
               onBack={() => setGameState((prev) => ({ ...prev, status: 'welcome' }))}
               onStartGame={startGame}
-              isLoading={gameState.status === 'loading'}
+              isLoading={false}
             />
           )}
 

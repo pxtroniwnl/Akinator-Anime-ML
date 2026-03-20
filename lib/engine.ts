@@ -22,7 +22,7 @@ function loadCharacters(): Character[] {
   return records.map((record: Record<string, string>) => ({
     ...record,
     favorites: parseInt(record.favorites) || 0,
-  }))
+  })) as Character[]
 }
 
 // Cache de personajes

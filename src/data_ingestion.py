@@ -59,12 +59,14 @@ def run_full_pipeline(pages=5):
         if response.status_code == 200:
             data = response.json()['data']
             for char in data:
+                # AQUÍ SE AGREGA LA COLUMNA FAVORITES
                 all_characters.append({
                     'name': char['name'],
                     'about': char['about'] if char['about'] else "",
-                    'image_url': char['images']['jpg']['image_url']
+                    'image_url': char['images']['jpg']['image_url'],
+                    'favorites': char.get('favorites', 0) # <--- NUEVA COLUMNA
                 })
-            time.sleep(1) # Importante para evitar que la API nos bloquee
+            time.sleep(1) 
         else:
             print(f"Error en página {page}")
 
@@ -85,4 +87,4 @@ def run_full_pipeline(pages=5):
     return df_processed
 
 if __name__ == "__main__":
-    run_full_pipeline(5) # Descarga unos 125 personajes para empezar
+    run_full_pipeline(5)

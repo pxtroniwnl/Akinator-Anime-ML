@@ -17,9 +17,9 @@ function loadCharacters(): Character[] {
   const records = parse(fileContent, {
     columns: true,
     skip_empty_lines: true,
-  })
+  }) as Record<string, string>[]
   
-  return records.map((record: Record<string, string>) => ({
+  return records.map((record) => ({
     ...record,
     favorites: parseInt(record.favorites) || 0,
   })) as Character[]

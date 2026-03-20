@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Incluir el archivo CSV en el bundle de las serverless functions
+  outputFileTracingIncludes: {
+    '/api/*': ['./data/**/*'],
+  },
 }
 
 export default nextConfig

@@ -1,12 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from src.engine import AkinatorEngine
-import pandas as pd
 
 app = FastAPI()
-
-# Cargar datos de personajes para el endpoint de galería
-characters_df = pd.read_csv('data/processed_characters.csv')
 
 # Permitir que el frontend (v0/Next.js) se conecte
 app.add_middleware(
@@ -38,9 +34,3 @@ def handle_answer(question: str, ans: int):
     
     next_q = engine.get_best_question()
     return {"question": next_q, "status": "playing", "remaining": len(engine.current_data)}
-
-@app.get("/characters")
-def get_characters():
-    """Retorna todos los personajes disponibles para que el usuario pueda ver quién está en el juego"""
-    characters = characters_df[['name', 'image_url', 'favorites', 'about']].to_dict('records')
-    return {"characters": characters, "total": len(characters)}

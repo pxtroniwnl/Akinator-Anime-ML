@@ -1,6 +1,36 @@
-def main():
-    print("Hello from akinator-anime-ml!")
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from src.engine import AkinatorEngine
 
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+# Permitir que el frontend (v0/Next.js) se conecte
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], 
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Diccionario para guardar partidas activas (en memoria para el MVP)
+games = {}
+
+@app.get("/start")
+def start_game():
+    game_id = "user_1" # En producción usarías un ID único
+    games[game_id] = AkinatorEngine('data/processed_characters.csv')
+    first_q = games[game_id].get_best_question()
+    return {"question": first_q, "status": "playing"}
+
+@app.post("/answer")
+def handle_answer(question: str, ans: int):
+    engine = games["user_1"]
+    engine.update_data(question, ans)
+    
+    # ¿Ya tenemos ganador?
+    if len(engine.current_data) <= 1:
+        winner = engine.get_result()
+        return {"status": "finished", "winner": winner}
+    
+    next_q = engine.get_best_question()
+    return {"question": next_q, "status": "playing", "remaining": len(engine.current_data)}

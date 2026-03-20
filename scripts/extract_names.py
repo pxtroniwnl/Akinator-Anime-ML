@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('data/processed_characters.csv')
+df = pd.read_csv('/vercel/share/v0-project/data/processed_characters.csv')
 names = df['name'].tolist()
 
 print(f"Total characters: {len(names)}")

@@ -48,7 +48,7 @@ def extract_features(df):
     return processed_df
 
 # --- Función de Descarga (Fase 1) ---
-def run_full_pipeline(pages=5):
+def run_full_pipeline(pages=50):
     all_characters = []
     
     print(f"Descargando {pages} páginas de personajes...")
@@ -87,4 +87,4 @@ def run_full_pipeline(pages=5):
     return df_processed
 
 if __name__ == "__main__":
-    run_full_pipeline(5)
+    run_full_pipeline()

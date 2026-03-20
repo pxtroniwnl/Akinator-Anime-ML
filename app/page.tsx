@@ -4,7 +4,7 @@ import { useState, useCallback, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Brain, Sparkles, RefreshCw, User, Heart, Users, ArrowLeft, Search, X } from 'lucide-react'
 
-const API_URL = '/api'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 type GameStatus = 'welcome' | 'browse' | 'playing' | 'loading' | 'finished' | 'error'
 
@@ -554,7 +554,6 @@ export default function AnimeAkinator() {
   })
   const [characters, setCharacters] = useState<Character[]>([])
   const [isLoadingCharacters, setIsLoadingCharacters] = useState(false)
-  const [engineState, setEngineState] = useState<unknown>(null)
 
   useEffect(() => {
     async function fetchCharacters() {
@@ -600,7 +599,6 @@ export default function AnimeAkinator() {
       if (!response.ok) throw new Error('Failed to start game')
 
       const data = await response.json()
-      setEngineState(data.gameState)
       setGameState({
         status: 'playing',
         question: data.question,
@@ -621,29 +619,22 @@ export default function AnimeAkinator() {
     setGameState((prev) => ({ ...prev, status: 'loading' }))
 
     try {
-      const response = await fetch(`${API_URL}/answer`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          question: gameState.question,
-          answer,
-          gameState: engineState,
-        }),
-      })
+      const response = await fetch(
+        `${API_URL}/answer?question=${encodeURIComponent(gameState.question)}&ans=${answer}`,
+        { method: 'POST' }
+      )
 
       if (!response.ok) throw new Error('Failed to submit answer')
 
       const data = await response.json()
 
       if (data.status === 'finished') {
-        setEngineState(null)
         setGameState((prev) => ({
           ...prev,
           status: 'finished',
           winner: data.winner,
         }))
       } else {
-        setEngineState(data.gameState)
         setGameState((prev) => ({
           ...prev,
           status: 'playing',
@@ -658,10 +649,9 @@ export default function AnimeAkinator() {
         error: error instanceof Error ? error.message : 'Failed to submit answer',
       }))
     }
-  }, [gameState.question, engineState])
+  }, [gameState.question])
 
   const resetGame = useCallback(() => {
-    setEngineState(null)
     setGameState({
       status: 'welcome',
       question: '',

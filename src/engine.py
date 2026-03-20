@@ -17,17 +17,19 @@ class AkinatorEngine:
         return np.log2(len(data))
 
     def get_best_question(self):
-        """Busca la pregunta que mejor divide el dataset (Information Gain)."""
         best_gain = -1
         best_q = None
 
         for q in self.questions:
-            # Simulamos dividir el dataset por esta pregunta (Sí = 1, No = 0)
+            # SKEW CHECK: Si todos los personajes restantes tienen el mismo valor en esta pregunta,
+            # la ganancia es 0. La ignoramos.
+            values = self.current_data[q].unique()
+            if len(values) <= 1:
+                continue
+
             yes_count = len(self.current_data[self.current_data[q] == 1])
             no_count = len(self.current_data[self.current_data[q] == 0])
             
-            # Buscamos la división más equilibrada (cercana al 50/50)
-            # Esto es una simplificación de la Ganancia de Información
             score = min(yes_count, no_count) / max(yes_count, no_count + 1e-9)
             
             if score > best_gain:
